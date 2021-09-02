@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- EXTERN CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- TAB ICON -->
+    <link
+      rel="icon"
+      href="https://image.flaticon.com/icons/png/512/244/244713.png"
+    />
+    <!-- TAB TITLE -->
+    <title>Cartão de visita</title>
+  </head>
+
+  <body>
+    <!-- PARTE DA FRENTE DO CARTÃO DE VISITA -->
+    <div class="flip" id="card">
+      <div class="face" id="front">
+        <img id="pImage" src="./assets/logo.png" />
+      </div>
+      <!-- PARTE DE TRÁS DO CARTÃO -->
+      <div class="face" id="back">
+        <img id="sImage" src="./assets/qrcode.png" />
+        <div class="myBullet">
+          <h2 class="subTitle">Follow me:</h2>
+          <ul>
+            <a href="https://www.instagram.com/elton.almeid/" target="_blank">
+              <li class="instagram">|elton.almeid</li>
+            </a>
+            <a href="https://open.spotify.com/playlist/4C4RIc6Lbq39BS5MkGM5aD?si=9f357bc922424385" target="_blank">
+              <li class="spotify">|elton.almeid</li>
+            </a>
+            <a href="https://github.com/eltonalmeid" target="_blank">
+              <li class="github">|eltonalmeid</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- INTERN - JS -->
+    <script>
+      const card = document.querySelector("#card");
+      card.addEventListener("click", (e) => {
+        card.classList.toggle("flip");
+      });
+    </script>
+  </body>
+</html>

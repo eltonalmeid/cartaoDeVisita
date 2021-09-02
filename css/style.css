@@ -1,0 +1,173 @@
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#card{
+    margin-top: 10%;
+    display: flex;
+    transform-style: preserve-3d;
+    transition: all 2.5s;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+
+.face{
+    padding: 1px 20px;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    background-size: cover;   
+    border-radius: 10px;
+    box-sizing: border-box;
+    position:absolute;
+    box-shadow: 0px 0px 10px 0px whitesmoke;
+}
+
+#front{
+    transform: rotateY(-180deg);
+}
+
+#pImage{
+    width: 310px;
+    position: absolute;
+    top: -13%;
+    left: 18%;
+    margin: -25px 0 0 -25px;
+}
+
+#sImage{
+    width: 160px;
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    margin: -25px 0 0 -25px;
+}
+
+
+.myBullet{
+    position: relative;
+    left: 210px;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: -10px;
+    margin-left: -30px;
+    object-position: right top;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    width:100px;
+    display:block;
+}
+
+.instagram{
+    background: url(../assets/instagram.png) no-repeat left top;
+    background-size: 25px;
+    height: 25px;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+
+.spotify{
+    margin-top: 10px;
+    background: url(../assets/spotify.png) no-repeat left top;
+    background-size: 25px;
+    height: 25px;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+
+.github{
+    margin-top: 10px;
+    background: url(../assets/github.png) no-repeat left top;
+    background-size: 25px;
+    height: 25px;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+
+
+.flip{
+    transform: rotateY(180deg);
+}
+
+
+    /* RESPONSIVE SCREEN */
+
+@media screen and (max-width: 1134px){
+
+    #card{
+        margin-top: 50%;   
+    }
+    
+    .myBullet{
+        display: block;
+        width: 130px;
+    }
+
+}
+
+
+@media screen and (max-width: 375px){
+
+    .face{
+        width: 300px;
+        height: 150px;
+    }
+
+    #pImage{
+        width: 240px;
+        position: absolute;
+        top: -13%;
+        left: 20%;
+        margin: -25px 0 0 -25px;
+    }
+    
+    #sImage{
+        width: 130px;
+        position: absolute;
+        top: 20%;
+        left: 14%;
+        margin: -25px 0 0 -15px;
+    }
+
+    .myBullet{
+        position: relative;
+        left: 155px;
+    }
+
+    .subTitle{
+        font-size: 16px;
+    }
+
+    li{
+        font-size: 10px;
+    }
+    
+    .instagram{
+        margin-top: 18px;
+        background-size: 17px;
+    }
+    
+    .spotify{
+        margin-top: -4px;
+        background-size: 17px;
+    }
+    
+    .github{
+        margin-top: -4px;
+        background-size: 17px;
+    }
+
+}
+
