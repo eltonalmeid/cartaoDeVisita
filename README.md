@@ -5,7 +5,7 @@
 </p>
 
 <h2 align="center">
-  Acesse o Cartão de Visita Clicando <a target="_blank" href="https://eltonalmeid.github.io/cartaoDeVisita/">AQUI</a>
+  Acesse o Cartão de Visita Clicando <a target="_blank" href="https://eltonalmeid.github.io/cartaoDeVisita/">AQUI</a>! :stuck_out_tongue_closed_eyes:
 </h2>
 
 <div align="center">
