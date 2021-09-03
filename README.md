@@ -5,7 +5,7 @@
 </p>
 
 <h2 align="center">
-  Acesse a Página Clicando <a href="https://eltonalmeid.github.io/cartaoDeVisita/"  target="_blank">AQUI</a>
+  Acesse o Cartão de Visita Clicando <a href="https://eltonalmeid.github.io/cartaoDeVisita/"  target="_blank">AQUI</a>
 </h2>
 
 <div align="center">
