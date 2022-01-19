@@ -108,7 +108,7 @@ a{
 @media screen and (max-width: 1134px){
 
     #card{
-        margin-top: 25%;
+        margin-top: 15%;
     }
     
     .myBullet{
@@ -119,7 +119,11 @@ a{
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 415px){
+
+    #card{
+        margin-top: 50%;
+    }
 
     .face{
         width: 300px;
