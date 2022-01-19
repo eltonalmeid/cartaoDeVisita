@@ -9,13 +9,12 @@ body{
 }
 
 #card{
-    margin-top: 10%;
     display: flex;
     transform-style: preserve-3d;
     transition: all 2.5s;
     justify-content: center;
     box-sizing: border-box;
-    
+    margin-top: 15%;
 }
 
 .face{
@@ -28,10 +27,12 @@ body{
     box-sizing: border-box;
     position:absolute;
     box-shadow: 0px 0px 10px 0px whitesmoke;
+    /* left: 50%; */
 }
 
 #front{
     transform: rotateY(-180deg);
+
 }
 
 #pImage{
@@ -98,7 +99,7 @@ a{
 
 
 .flip{
-    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
 }
 
 
@@ -107,7 +108,7 @@ a{
 @media screen and (max-width: 1134px){
 
     #card{
-        margin-top: 50%;   
+        margin-top: 25%;
     }
     
     .myBullet{
